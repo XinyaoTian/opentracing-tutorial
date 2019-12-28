@@ -7,12 +7,13 @@ def init_tracer(service):
     logging.basicConfig(format='%(message)s', level=logging.DEBUG)
 
     config = Config(
-        config={
+        config={ # usually read from some yaml config
             'sampler': {
                 'type': 'const',
                 'param': 1,
             },
             'logging': True,
+            'reporter_batch_size': 1,
         },
         service_name=service,
     )
