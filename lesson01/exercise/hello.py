@@ -1,6 +1,6 @@
 import sys
 import time
-from exercise.tracer_jeager import init_tracer
+from lesson01.exercise.tracer_jeager import init_tracer
 
 
 def say_hello(hello_to):
