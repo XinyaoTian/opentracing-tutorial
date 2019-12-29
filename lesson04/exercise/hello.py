@@ -51,7 +51,7 @@ def http_get(port, path, param, value):
 # main
 assert len(sys.argv) == 3
 
-tracer = init_tracer('hello-world-03')
+tracer = init_tracer('hello-world-04')
 
 hello_to = sys.argv[1]
 greeting = sys.argv[2]
