@@ -54,7 +54,8 @@ assert len(sys.argv) == 3
 tracer = init_tracer('hello-world-03')
 
 hello_to = sys.argv[1]
-say_hello(hello_to)
+greeting = sys.argv[2]
+say_hello(hello_to, greeting)
 
 # yield to IOLoop to flush the spans
 time.sleep(2)
