@@ -49,7 +49,7 @@ def http_get(port, path, param, value):
 
 
 # main
-assert len(sys.argv) == 2
+assert len(sys.argv) == 3
 
 tracer = init_tracer('hello-world-03')
 
